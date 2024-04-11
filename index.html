@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>File Downloader</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <section>
+        <h1>File Downloader</h1>
+
+        <p>Paste url of any image or video to download. If the download doesn't work, then you probably don't have access to it.
+        </p>
+
+        <form>
+            <div class="input-box">
+                <i class='bx bx-link'></i>
+                <input type="url" placeholder="paste file url" required id="urlInput">
+                <button type="submit" id="download-Btn">Download File</button>
+            </div>
+            <div class="wrong"></div>
+        </form>
+
+        <div class="ref">
+           click <a href="https://image-generator-three-phi.vercel.app/">here</a> to make an image search
+        </div>
+
+    </section>
+
+    <footer>
+        <span>&copy; Built by <a href="https://github.com/justinedoc">Justinedoc </a></span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
